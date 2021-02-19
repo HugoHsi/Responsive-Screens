@@ -1,0 +1,31 @@
+body {
+  background-color: rgb(187, 231, 104);
+}
+.title {
+  font-size: 8em;
+  font-family: helvetica;
+  color: rgb(187, 231, 104);
+}
+
+h1 {
+  font-size: 4em;
+  font-family: helvetica;
+  color: rgb(187, 231, 104);
+}
+
+p {
+  font-size: 2em; 
+  color: rgb(37, 129, 14);
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    color: rgb(37, 129, 14);
+  }
+  h1 {
+    color: rgb(37, 129, 14);
+  }
+  p {
+    color: rgb(187, 231, 104);
+  }
+}
